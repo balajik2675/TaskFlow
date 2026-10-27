@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TaskFlow Backend",
+			"type": "shell",
+			"command": "cmd /c \"cd /d D:\\Task management\\server && node src/server.js\"",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "TaskFlow Backend 2",
+			"type": "shell",
+			"command": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Set-Location 'D:\\Task management\\server'; node src/server.js\"",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
